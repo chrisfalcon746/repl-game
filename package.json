@@ -1,12 +1,15 @@
 {
   "name": "Repl-Game",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "mygame.js",
   "repository": "https://github.com/chrisfalcon746/repl-game.git",
   "author": "Christopher Falcon <chrisfalcon59@hotmail.com>",
   "license": "MIT",
   "dependencies": {
     "nodemon": "^2.0.4",
     "readline-sync": "^1.4.10"
-  }
+  },
+  "scripts": {
+		"start": "nodemon index.js"
+	}
 }
